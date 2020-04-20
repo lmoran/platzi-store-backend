@@ -1,0 +1,27 @@
+language: node_js
+cache:
+directories:
+  - node_modules
+  - ~/.npm
+node_js:
+  - '12'
+git:
+  depth: 3
+script:
+  - yarn test
+notifications:
+  email:
+    reciepients:
+      - luismoran0293@gmail.com
+      - luis-moranchozo93@hotmail.com
+    on_success: always
+    on_failure: always
+
+deploy:
+  provide: heroku
+  skip-cleanup: true
+  keep_history: true
+  api_key: 6a42319e-d2e6-43f8-8b11-e5afe3d07a33
+  app: platzi-store-backend-lmoran
+  on:
+    repo: lmoran/platzi-store-backend
