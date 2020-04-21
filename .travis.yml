@@ -21,7 +21,8 @@ deploy:
   provide: heroku
   skip-cleanup: true
   keep_history: true
-  api_key: 6a42319e-d2e6-43f8-8b11-e5afe3d07a33
+  api_key:
+    secure: 't6TVDOJZ3/trnQIFtpJ+3MWzQUxmGvJUlDlh4o+XliCdh2JlLA1thiKP2UL9I+7kgGVX3YADJXzR9LKzbDZuFRARu+0XzRlbjk1j+jg4KIqklNEQxU/kBVwan3OuvWEIlYIgwdfuue78Dk/m55ISzRYYVrQqTychu7OfhPpNSTtb90jWox0ttCsfp9n2ywUQzufDNoxMxeKNK43Ktceno0nWYUO+a6XnT9TMWLHKvtR2lDk7Tv5s7cwDlfxzCYirRKl7uz3SjVpJeIgNkmZFRGgmZ49/qVCgQNL8En/Lc9mXOCRNW2WcyN1wHsmMKhSswJpfhWLSNERwCft6CO3XGAyAGlR2Qv5NsmVNyRY1MACjF5d+9iEc9lUJr/1Ae4ELuvE+8fZq4pFXg8uW1HvgE3YTmCkY/Mhl1Ko+C8cXIYAaF2WCpSqee5F4++aItRuAGrrYhZVVUaHaBebXmKpaTS4cK90aACtf99p3XXgPqTRdO65gAfTZLuEW9bmQAwG+eE27yW3pHkUdX7XtnrgIGZbYBdqjt1kruvr0LrfWyLN5hJnoLyHY/M/XUh7CsErnIeaCc2X5u4wnR+6Npw2d/I9YpEn0H8GtLpFwKNBRq5+UhEKncV30trTfjSeXPv3Ogcl7/jvjGf2+BWl/i9D5OZRpn55X/I7htvvKUGEMUcU='
   app: platzi-store-backend-lmoran
   on:
     repo: lmoran/platzi-store-backend
